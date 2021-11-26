@@ -134,7 +134,7 @@ def otp_ver():
     otp = random.randint(1000,9999)
     k=str(otp)
     print(k)
-    client = Client("AC323b75dec0b60fa963f56a02feb80df5", "dcae36b170c23cf230c1c210a8376a8a")
+    client = Client("AC323b75dec0b60fa963f56a02feb80df5", "d6bbdbea30fa0c97d16dee30f7400520")
     msg=client.api.account.messages.create(
             to=phonew.get(),
             from_="+14706465282",
